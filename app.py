@@ -17,8 +17,7 @@ st.sidebar.header("Configuration")
 # Input Section
 st.header("Search Full Stack Academy Info")
 question = st.text_input("Enter your question:")
-api_key = "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"
-
+api_key=None
 
 # Load data and set up the chain when user provides API Key
 if api_key:
